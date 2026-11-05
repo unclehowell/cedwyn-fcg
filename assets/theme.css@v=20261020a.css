@@ -145,3 +145,9 @@ html body .migr{background:#0d0d0d!important;border:1px solid var(--line)!import
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .sl-home .sl-main > .fcg-src{margin:3rem 0 0!important}
+
+/* 5 Nov 2026 (1.0.8): inside the estate shell (bucklerfamily.estate/fcg/ pages served with the
+   shared chrome) the full-viewport landing hero renders as an oversized empty block on the light
+   shell; make it a section header there. Standalone (subdomain) rendering is unchanged. */
+html.ghf-shell .sl-hero{min-height:0;padding:3rem 1.1rem 2rem}
+html.ghf-shell .cl-hero{min-height:0}
