@@ -1,9 +1,9 @@
 # Cedwyn text-page standard (v1.0.0, 10 Nov 2026)
 
 The design of the FCG case pages is the standard for every text-heavy page on bucklerfamily.estate.
-Reference page: https://bucklerfamily.estate/fcg/case/itv-cymru-wales-forensic-institutional-review
+Reference page: https://bucklerfamily.estate/rduq/case/itv-cymru-wales-forensic-institutional-review
 
-Stylesheet: `assets/text-page.css` in this repo (served at https://bucklerfamily.estate/fcg/assets/text-page.css).
+Stylesheet: `assets/text-page.css` in this repo (served at https://bucklerfamily.estate/rduq/assets/text-page.css).
 It is the reference theme (`assets/theme.css`, v=20261020a) with its text-page rules renamed to `tp-*` so any webapp can use them
 without inheriting the FCG nav. Each webapp keeps an identical copy at `public/assets/text-page.css` (or `web/<app>/assets/`)
 so it stays self-contained; when you change the standard, bump the version line at the top and copy it to every app that carries it.

@@ -11,7 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = 'https://cedwyn.bucklerfamily.estate/api/catalogue/'
 FIELDS = ('id', 'kind', 'title', 'date_display', 'date_sort', 'status', 'page')
 NEEDS = ['*.html', 'case/*.html', '**/*.html']   # the pages whose record IDs this webapp shows (globs)
-OUT = ROOT / 'data' / 'central.json'   # served at /fcg/data/central.json
+OUT = ROOT / 'data' / 'central.json'   # served at /rduq/data/central.json
 ids = set()
 for g in NEEDS:
     for f in sorted(ROOT.glob(g)):

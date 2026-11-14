@@ -1,11 +1,11 @@
 {
  "schema": "ghf-agent-discovery/1.0",
  "generated": "2026-11-05T20:45:00Z",
- "name": "FCG — Fraud, Concealment and Government involvement · Security Clearance",
+ "name": "RDUQ — Records, decisions and unresolved questions · Public-interest research",
  "description": "Institutions ranked out of 1000 on how they answered requests for the Great House Farm record: every point from a dated email or letter.",
- "url": "https://bucklerfamily.estate/fcg/",
- "note": "FCG = Fraud, Concealment and Government involvement. Canonical address: https://bucklerfamily.estate/fcg/ . The fcg.bucklerfamily.estate subdomain is being retired: its root already redirects to the canonical address; its remaining URLs keep answering until its Cloudflare route is removed, then redirect. The old subdomain agent endpoints (/agent/*, clearance.json, sitemap, llms-full) are not part of the canonical site; estate-level agent discovery: https://cedwyn.bucklerfamily.estate/.well-known/mcp.json and https://cedwyn.bucklerfamily.estate/agent/search?q=...",
- "llms": "https://bucklerfamily.estate/fcg/llms.txt",
+ "url": "https://bucklerfamily.estate/rduq/",
+ "note": "RDUQ = Records, decisions and unresolved questions. Canonical address: https://bucklerfamily.estate/rduq/ . The fcg.bucklerfamily.estate subdomain is being retired: its root already redirects to the canonical address; its remaining URLs keep answering until its Cloudflare route is removed, then redirect. The old subdomain agent endpoints (/agent/*, clearance.json, sitemap, llms-full) are not part of the canonical site; estate-level agent discovery: https://cedwyn.bucklerfamily.estate/.well-known/mcp.json and https://cedwyn.bucklerfamily.estate/agent/search?q=...",
+ "llms": "https://bucklerfamily.estate/rduq/llms.txt",
  "estate": {
   "home": "https://bucklerfamily.estate/",
   "sites": [
@@ -124,10 +124,10 @@
     "mcp": "https://fb2.bucklerfamily.estate/.well-known/mcp.json"
    },
    {
-    "url": "https://bucklerfamily.estate/fcg/",
-    "name": "FCG — Fraud, Concealment and Government involvement · Security Clearance",
-    "llms": "https://bucklerfamily.estate/fcg/llms.txt",
-    "mcp": "https://bucklerfamily.estate/fcg/.well-known/mcp.json"
+    "url": "https://bucklerfamily.estate/rduq/",
+    "name": "RDUQ — Records, decisions and unresolved questions · Public-interest research",
+    "llms": "https://bucklerfamily.estate/rduq/llms.txt",
+    "mcp": "https://bucklerfamily.estate/rduq/.well-known/mcp.json"
    },
    {
     "url": "https://infographic.bucklerfamily.estate/",
