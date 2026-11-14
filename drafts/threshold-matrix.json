@@ -1,0 +1,63 @@
+{
+ "schema": "fcg-threshold-matrix/0.1",
+ "status": "DRAFT for owner review. Not published. Not legal advice: a research framework written by an AI agent; every citation needs checking against its source and by a solicitor or barrister.",
+ "drafted": "2026-11-14",
+ "issue": "unclehowell/cedwyn#593",
+ "grades": {
+  "held": "a record held or read in the archive shows it, in its own words",
+  "recited": "known only because a later document mentions it; the instrument has not been produced",
+  "court": "a court's or official body's statement, in that body's wording and date",
+  "family": "a family statement; the document not yet produced",
+  "not_held": "no record found, or the record is known to exist and has not been obtained",
+  "contrary": "a record that points the other way"
+ },
+ "routes": [
+  {
+   "id": "A",
+   "name": "Setting aside the 1986-87 judgments as obtained by fraud (the legal name of the route)",
+   "authority_to_verify": ["Takhar v Gracefield Developments [2019] UKSC 13", "Royal Bank of Scotland v Highland Financial Partners [2013] EWCA Civ 328"],
+   "elements": [
+    {"id": "A1", "needs": "Conscious and deliberate dishonesty by a party to the proceedings, in evidence given, a statement made or a matter kept back", "held": [], "recited": [], "court": [], "family": [], "not_held": ["the parties' affidavits, pleadings and disclosure lists of 1984-87 (court file and solicitors' files)", "the 1982-83 first-registration applications and the statements made in them (WA231076, WA240304)"], "contrary": [], "reading": "Empty. No record held shows a statement to the court that its maker knew to be untrue."},
+    {"id": "A2", "needs": "Materiality: the dishonesty was an operative cause of the decision", "held": ["EV-0080"], "recited": [], "court": ["EV-0080"], "family": [], "not_held": [], "contrary": ["EV-0080: the decision rests on the 1962 possession order and the 31 Oct 1974 letters (EV-0050, EV-0074); to be material, new evidence would have to bear on one of those two"], "reading": "The judgment shows what the decision turned on, so the target is narrow and known."},
+    {"id": "A3", "needs": "Fresh evidence of A1 and A2 that was not before the court", "held": [], "recited": ["EV-0216", "EV-0043", "EV-0045", "EV-0052"], "court": [], "family": ["EV-0049", "EV-0016", "EV-0006"], "not_held": ["25 Dec 1938 conveyance and plan", "31 Dec 1969 conveyance and plan", "1974 county-court file", "WA240304 first-registration file"], "contrary": [], "reading": "Candidates only. A document not produced in 1987 is fresh evidence of dishonesty only if it shows that a party knew something different from what it told the court."}
+   ],
+   "standard": "Balance of probabilities; cogent evidence expected for an allegation this serious."
+  },
+  {
+   "id": "B",
+   "name": "Postponement of limitation: Limitation Act 1980, section 32",
+   "authority_to_verify": ["Limitation Act 1980 s.32", "Canada Square Operations v Potter [2023] UKSC 41"],
+   "elements": [
+    {"id": "B2", "needs": "A fact relevant to the right of action that the defendant knew and intentionally kept from the claimant", "held": ["EV-0059", "EV-0066", "EV-0065", "EV-0078"], "recited": [], "court": [], "family": [], "not_held": ["any record of notice given, or not given, to the occupier at first registration (1982-83) and at the amalgamation of 2 Feb 1987"], "contrary": ["registration is a public act; the 1987 court recorded BP as registered proprietor since November 1982 (EV-0080), so the fact of registration was known to the family's side by 1986-87 at the latest"], "reading": "The dated sequence is held. What is not held is any record of what the applicant knew and chose not to tell. Recklessness or silence alone does not meet this element."},
+    {"id": "B4", "needs": "The date the claimant discovered the fact, or could have with reasonable diligence", "held": [], "recited": [], "court": [], "family": [], "not_held": ["a dated log of when each document first reached the family (the 2026 disclosure replies would supply it)"], "contrary": [], "reading": "Buildable from the family's own correspondence. Needed for every route."},
+    {"id": "B5", "needs": "No recovery against a purchaser for value without notice (s.32(3)-(4))", "held": [], "recited": [], "court": [], "family": [], "not_held": ["the Dec 1993 transfer and later house transfers"], "contrary": ["the site was sold in 1993 and built on; the present proprietors are purchasers for value"], "reading": "Points any money remedy at the original parties or the indemnity scheme, not at the present owners."}
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Mistake in the register and indemnity: Land Registration Act 2002, Schedules 4 and 8 (first registration was under the 1925 Act)",
+   "authority_to_verify": ["Land Registration Act 2002 Sch 4 paras 2-3, 5-6; Sch 8 paras 1, 8", "Land Registration Act 1925 s.70(1)(f) and (g)"],
+   "elements": [
+    {"id": "C1", "needs": "A mistake in the register: for example land included at first registration that the applicant's deeds did not carry", "held": ["EV-0059", "EV-0066", "EV-0078", "EV-0023"], "recited": ["EV-0216", "EV-0043", "EV-0045", "EV-0052"], "court": ["EV-0352"], "family": [], "not_held": ["25 Dec 1938 plan", "31 Dec 1969 plan", "the documents lodged with the WA240304 application"], "contrary": ["EV-0352: the registry's stage-two reply (May 2026) that the title was registered correctly", "EV-0215, EV-0212: the tithe and poor-rate books enter the Marquess of Bute in the owner column for the holding"], "reading": "The strongest documentable line. It is decided by comparing plans parcel by parcel, and three of the four plans needed are not held. The 1939 tenancy plan (EV-0023) shows fields only."},
+    {"id": "C2", "needs": "Against a proprietor in possession: that proprietor caused or contributed to the mistake by lack of proper care or worse, or it would be unjust not to alter", "held": [], "recited": [], "court": [], "family": [], "not_held": [], "contrary": ["the present proprietors are house owners who bought after 1993"], "reading": "Not realistically met against present owners. The realistic remedy under this route is indemnity."},
+    {"id": "C3", "needs": "Indemnity limitation (Sch 8 para 8): time runs from when the claimant knew, or but for their own default might have known, of the claim", "held": [], "recited": [], "court": [], "family": [], "not_held": ["the dated discovery log (see B4)"], "contrary": ["registration was known by 1986-87 (EV-0080)"], "reading": "The hardest point on this route. A solicitor's view on when time started is the first thing to obtain."}
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Maladministration and information-rights findings (ombudsmen, the Information Commissioner)",
+   "elements": [
+    {"id": "D1", "needs": "A dated request, the body's reply, and the rule the reply did not meet", "held": ["TOC-F01", "TOC-F02", "TOC-F03", "TOC-F04"], "recited": [], "court": [], "family": [], "not_held": [], "contrary": ["several bodies corrected their own first replies; ordinary search error explains those"], "reading": "Documentable now. Produces findings and disclosure; does not reopen title."}
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Preliminary points for every route",
+   "elements": [
+    {"id": "E1", "needs": "Standing: who now holds whatever right Mary Williams and William Buckler had (grants of representation, and who the estates passed to)", "held": ["EV-0067"], "recited": [], "court": [], "family": [], "not_held": ["the grants and the chain from each estate to the present family"], "contrary": [], "reading": "Must be settled first. One open point (a date of death) is on hold in the hive and is left alone here."},
+    {"id": "E2", "needs": "A documentary root for any assertion that the house was a Williams freehold (the central working theory, TH-07)", "held": ["EV-0211", "EV-0215", "EV-0243", "EV-0283"], "recited": ["EV-0014"], "court": ["EV-0039", "EV-0080"], "family": ["EV-0049", "EV-0006", "EV-0016"], "not_held": ["land tax assessments for Dinas Powis hundred, 1734-1831 (Glamorgan Archives Q/D/LTA/DP, 12 volumes): proprietor and occupier, year by year", "the roll of Glamorgan freeholders eligible to vote, 1744-45 (West Glamorgan Archives D/D Z 108)", "registers of electors from 1832, which give each voter's qualification", "Llandough manor court books (Glamorgan Archives D/D B M/3)", "the schedule to the 1793 purchase"], "contrary": ["EV-0215 and EV-0212 enter John Williams as occupier and Bute as owner", "EV-0014 and EV-0227: a yearly tenancy of 1916 and a press report of succession to 'the tenancy of the farm' in 1855", "Glamorgan Archives, 13 Nov 2026 (ref 2026/4772): catalogue search found no lease of Great House of c.1660-75, no later deed reciting one, no conveyance of Great House from Vaughan to Bute or Windsor, and no Vaughan of Llandough papers. A catalogue search, not a search of the documents."], "reading": "Not met. The records that would decide it for the years before the tithe exist and have not been read. They can go either way."}
+   ]
+  }
+ ],
+ "overall_reading": "Provisional. No cell under A1 or B2 holds a record of deliberate dishonesty or of a known fact intentionally kept back. C1 is the line the documents can actually decide, and it needs four plans, three of them not held. The threshold to reopen is not met on the records held today. A gap in the record is not proof of concealment."
+}
