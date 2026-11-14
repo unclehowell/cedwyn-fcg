@@ -1,2 +1,3 @@
-# cedwyn-fcg
-FCG Security Clearance webapp for cedwyn.bucklerfamily.estate (split from unclehowell/cedwyn section/fcg)
+# cedwyn-rduq
+RDUQ — Records, decisions and unresolved questions. Public-interest research webapp for bucklerfamily.estate at `/rduq/` (formerly `/fcg/`).
+
